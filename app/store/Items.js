@@ -9,7 +9,7 @@
       storeId: 'itemsStore',
       proxy: {
         type: 'ajax',
-        url: 'http://sencha.dev/listHeaderFooter/data/data.json',
+        url: '__FEEDURL__',
         reader: {
           type: 'json',
           rootProperty: 'items'
