@@ -7,7 +7,7 @@ Ext.define 'ListHeaderFooter.store.Items'
 		storeId:'itemsStore'
 		proxy:
 			type:'ajax'
-			url:'http://sencha.dev/listHeaderFooter/data/data.json'
+			url:'_FEEDURL_'
 			reader:
 				type:'json'
 				rootProperty:'items'
