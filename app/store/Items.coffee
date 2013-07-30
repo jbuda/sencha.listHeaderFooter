@@ -7,7 +7,7 @@ Ext.define 'ListHeaderFooter.store.Items'
 		storeId:'itemsStore'
 		proxy:
 			type:'ajax'
-			url:'_FEEDURL_'
+			url:'__FEEDURL__'
 			reader:
 				type:'json'
 				rootProperty:'items'
